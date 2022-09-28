@@ -4,7 +4,7 @@
   "description": "Simple example for using github actions in js project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Yokeshthirumoorthi/github-actions-example/issues"
   },
-  "homepage": "https://github.com/Yokeshthirumoorthi/github-actions-example#readme"
+  "homepage": "https://github.com/Yokeshthirumoorthi/github-actions-example#readme",
+  "devDependencies": {
+    "jest": "^29.1.1"
+  }
 }
