@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-example",
+  "version": "1.0.0",
+  "description": "Simple example for using github actions in js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yokeshthirumoorthi/github-actions-example.git"
+  },
+  "author": "YokeshThirumoorthi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yokeshthirumoorthi/github-actions-example/issues"
+  },
+  "homepage": "https://github.com/Yokeshthirumoorthi/github-actions-example#readme"
+}
