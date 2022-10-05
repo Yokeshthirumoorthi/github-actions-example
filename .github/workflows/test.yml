@@ -23,12 +23,12 @@ jobs:
     - run: CI=true npm test -- --watchAll=false --coverage
 
     - name: Print the Total Coverage
-        id: coverage-percent
-        shell: bash
-        run: |
-          value=`sed -n 47p coverage/lcov-report/index.html | awk -F '>' '{print $2}' | awk -F '%' '{print $1}'`
-          echo "::set-output name=coverage::$value"
-          echo $value
+      id: coverage-percent
+      shell: bash
+      run: |
+        value=`sed -n 47p coverage/lcov-report/index.html | awk -F '>' '{print $2}' | awk -F '%' '{print $1}'`
+        echo "::set-output name=coverage::$value"
+        echo $value
 
     # https://github.com/actions/github-script#apply-a-label-to-an-issue
     - name: Add Coverage Label
